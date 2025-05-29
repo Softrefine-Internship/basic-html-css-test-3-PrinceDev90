@@ -3,9 +3,66 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Profile Page</title>
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- style file -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- icon cdn -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"
+    />
   </head>
   <body>
-    
+    <section class="profile-page">
+      <div class="banner-part">
+        <div class="banner-navigation container">
+          <h2 class="logo">LOGO</h2>
+
+          <div class="head-menus">
+            <button>NEED HELP</button>
+            <i class="ph ph-bell"></i>
+            <img src="images/avatar.jpg" alt="user-avatar" />
+          </div>
+        </div>
+
+        <!-- user information part -->
+
+        <div class="user-information container">
+          <div class="profile-info-part">
+            <img src="images/avatar.jpg" alt="avatar-large" />
+
+            <div class="user-content">
+              <h3 class="userName">Hi, Emma good morning 👋</h3>
+              <p>Email - abc.emma1231@gmail.com</p>
+              <p>Phone - +91-3230210210</p>
+              <p>Address - Pro Box 2103 Rajkot 3656001 (USA)</p>
+              <p>Plan - $5.40</p>
+              <p>Born - Mon. 22nd feb 2019</p>
+            </div>
+          </div>
+
+          <div class="user-progress-info">
+            <div class="progress-circle"></div>
+            <div class="progress-content">
+              <div class="">
+                <h5 class="profile-head">Profile Completion</h5>
+                <p class="profile-desc">Please complete profile</p>
+              </div>
+              <button class="com-btn">COMPLETE</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
