@@ -153,52 +153,57 @@
   padding: 8px 17px;
   color: white;
   border-radius: 5px;
-  /* margin-top: 15px; */
 }
 
 .progress-circle {
   position: relative;
   width: 100px;
   height: 100px;
-  border: 5px solid rgba(255, 255, 255, 0.388);
-  /* border;s */
-  /* border-radius: 50%; */
 }
 
-/* .progress-circle::after {
-  content: "";
-  height: 5px;
-  width: 100%;
-  background-color: red;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-} */
-
-/* .progress-circle::after {
-  content: "";
-  height: 90px;
-  box-shadow: 0px 0px 0px 5px yellow;
-  width: 90px;
-  background-color: transparent;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  border-radius: 50%;
-} */
 
 .progress-circle::after {
   content: "";
-  height: 80px;
-  width: 80px;
+  height: 89px;
+  width: 89px;
   background-color: transparent;
   position: absolute;
   inset: 0;
   rotate: 45deg;
   border-radius: 50%;
-
-  border-top: 5px solid rgba(255, 255, 255, 0.405);
-  border-right: 5px solid blue;
-  border-bottom: 5px solid green;
+  border-top: 5px solid rgba(255, 255, 255, 0.129);
+  border-right: 5px solid orange;
+  border-bottom: 5px solid orange;
   border-left: 5px solid orange;
+}
+
+
+.progress-circle::before {
+  content: "75%";
+  font-size: 20px;
+  height: 65px;
+  width: 65px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  justify-content: center;
+  top: 17px;
+  left: 17px;
+  /* transform: translate(-50%, -50%); */
+  background-color: rgba(255, 255, 255, 0.129);
+  position: absolute;
+  border-radius: 50%;
+}
+
+i {
+  backdrop-filter: blur(10px);
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.134);
+}
+
+.camera-icon {
+  display: flex;
+  justify-content: flex-end;
 }
