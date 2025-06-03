@@ -8,6 +8,9 @@
   list-style: none;
 }
 
+button {
+  cursor: pointer;
+}
 
 section {
   margin-bottom: 20px;
