@@ -2,9 +2,21 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Inter', sans-serif;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  font-variation-settings: normal;
   list-style: none;
 }
+
+
+section {
+  margin-bottom: 20px;
+}
+
+.me-2 {
+  margin-right: 10px;
+}
+
 
 :root {
   --color-1: #FCA424;
@@ -471,6 +483,7 @@
 .clams-count {
   font-size: 4rem;
   line-height: 1;
+  font-family: "JetBrains Mono", monospace;
   font-weight: 300;
   padding-right: 20px;
 }
@@ -604,7 +617,7 @@
   flex-direction: column;
   gap: 20px;
   margin-top: 15px;
-  
+
 }
 
 .list-activity-1 p {
